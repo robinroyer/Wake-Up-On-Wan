@@ -1,0 +1,6 @@
+@WakeMeUp_HostAddress = http://localhost:5243
+
+GET {{WakeMeUp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

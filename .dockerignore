@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+
+# Frontend
+Frontend/node_modules
+Frontend/dist
+Frontend/.vite
+
+# Backend
+Backend/bin
+Backend/obj
+Backend/wwwroot
+
+# Build outputs
+publish
+*.dll
+*.pdb
+*.exe
+
+# IDE
+.vs
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+SETUP.md
+DEPLOYMENT.md
+*.md
+
+# Development scripts
+dev.sh
+dev.bat
+Makefile
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Other
+.env
+.env.local
+.env.*.local
+nginx.conf
+wake-me-up.sln
